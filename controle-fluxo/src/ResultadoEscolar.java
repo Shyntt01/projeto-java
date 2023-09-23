@@ -2,12 +2,11 @@ public class ResultadoEscolar {
 
     public static void main(String[] args) {
 
-        int nota = 7; 
+        int nota = 6; 
 
-        if(nota >= 8)
-        System.out.println("Aprovado");
+        String resultado = nota >= 7 ? "Aprovado" : "Reprovado";
+        
+        System.out.println(resultado);
 
-        else
-        System.out.println("Reprovado");
     }
 }
